@@ -6,6 +6,12 @@ public class Hole : MonoBehaviour
 {
     public string targetTag;
     bool isHolding;
+    AudioSource goalSound;
+
+    void Start()
+    {
+        goalSound = GetComponent<AudioSource>();
+    }
 
     // ボールが入っているかを返す
     public bool IsHolding()
@@ -18,6 +24,7 @@ public class Hole : MonoBehaviour
         if (other.gameObject.tag == targetTag)
         {
             isHolding = true;
+            goalSound.Play();
         }
     }
 
