@@ -1,7 +1,7 @@
 # CarryBall
 
-ボールを転がしてゴール(赤い光)に入れるゲームです。
-UnityとC#の練習のために作りました。
+ボールを転がしてゴール(赤い光)に入れるゲームです。UnityとC#の練習のために作りました。  
+ここから遊べます→ [unityroom | CarryBall](https://unityroom.com/games/carryball)
 
 ## 操作
 **PC**  
